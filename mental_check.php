@@ -7,10 +7,10 @@ $total = 0;
 
 for ( $j = 1 ; $j <= 20 ; $j++ ) {
 
-if (isset($_GET["$j"]) && $j == 1 || isset($_GET["$j"]) && $j == 6 || isset($_GET["$j"]) && $j == 10 || isset($_GET["$j"]) && $j == 13 || isset($_GET["$j"]) && $j == 19) $a++;
-elseif (isset($_GET["$j"]) && $j == 2 || isset($_GET["$j"]) && $j == 4 || isset($_GET["$j"]) && $j == 9 || isset($_GET["$j"]) && $j == 15 || isset($_GET["$j"]) && $j == 17) $b++;
-elseif (isset($_GET["$j"]) && $j == 3 || isset($_GET["$j"]) && $j == 8 || isset($_GET["$j"]) && $j == 11 || isset($_GET["$j"]) && $j == 16 || isset($_GET["$j"]) && $j == 20) $c++;
-elseif (isset($_GET["$j"]) && $j == 5 || isset($_GET["$j"]) && $j == 7 || isset($_GET["$j"]) && $j == 12 || isset($_GET["$j"]) && $j == 14 || isset($_GET["$j"]) && $j == 18) $d++;
+    if (isset($_GET["$j"]) && $j == 1 || isset($_GET["$j"]) && $j == 6 || isset($_GET["$j"]) && $j == 10 || isset($_GET["$j"]) && $j == 13 || isset($_GET["$j"]) && $j == 19) $a++;
+    elseif (isset($_GET["$j"]) && $j == 2 || isset($_GET["$j"]) && $j == 4 || isset($_GET["$j"]) && $j == 9 || isset($_GET["$j"]) && $j == 15 || isset($_GET["$j"]) && $j == 17) $b++;
+    elseif (isset($_GET["$j"]) && $j == 3 || isset($_GET["$j"]) && $j == 8 || isset($_GET["$j"]) && $j == 11 || isset($_GET["$j"]) && $j == 16 || isset($_GET["$j"]) && $j == 20) $c++;
+    elseif (isset($_GET["$j"]) && $j == 5 || isset($_GET["$j"]) && $j == 7 || isset($_GET["$j"]) && $j == 12 || isset($_GET["$j"]) && $j == 14 || isset($_GET["$j"]) && $j == 18) $d++;
 }
 
 $total = $a + $b + $c + $d;
